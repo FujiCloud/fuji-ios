@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB430D501F4F2BE600E2D8BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB430D4F1F4F2BE600E2D8BC /* AppDelegate.swift */; };
+		EB430D521F4F2BE600E2D8BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB430D511F4F2BE600E2D8BC /* ViewController.swift */; };
+		EB430D551F4F2BE600E2D8BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB430D531F4F2BE600E2D8BC /* Main.storyboard */; };
+		EB430D571F4F2BE600E2D8BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB430D561F4F2BE600E2D8BC /* Assets.xcassets */; };
+		EB430D5A1F4F2BE600E2D8BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB430D581F4F2BE600E2D8BC /* LaunchScreen.storyboard */; };
+		EB430D651F4F2BE600E2D8BC /* FujiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB430D641F4F2BE600E2D8BC /* FujiTests.swift */; };
+		EB430D701F4F2BE600E2D8BC /* FujiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB430D6F1F4F2BE600E2D8BC /* FujiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB430D611F4F2BE600E2D8BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB430D441F4F2BE600E2D8BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB430D4B1F4F2BE600E2D8BC;
+			remoteInfo = Fuji;
+		};
+		EB430D6C1F4F2BE600E2D8BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB430D441F4F2BE600E2D8BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB430D4B1F4F2BE600E2D8BC;
+			remoteInfo = Fuji;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB430D4C1F4F2BE600E2D8BC /* Fuji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fuji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB430D4F1F4F2BE600E2D8BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB430D511F4F2BE600E2D8BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB430D541F4F2BE600E2D8BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB430D561F4F2BE600E2D8BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB430D591F4F2BE600E2D8BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB430D5B1F4F2BE600E2D8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB430D601F4F2BE600E2D8BC /* FujiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FujiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB430D641F4F2BE600E2D8BC /* FujiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FujiTests.swift; sourceTree = "<group>"; };
+		EB430D661F4F2BE600E2D8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB430D6B1F4F2BE600E2D8BC /* FujiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FujiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB430D6F1F4F2BE600E2D8BC /* FujiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FujiUITests.swift; sourceTree = "<group>"; };
+		EB430D711F4F2BE600E2D8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB430D491F4F2BE600E2D8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB430D5D1F4F2BE600E2D8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB430D681F4F2BE600E2D8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB430D431F4F2BE600E2D8BC = {
+			isa = PBXGroup;
+			children = (
+				EB430D4E1F4F2BE600E2D8BC /* Fuji */,
+				EB430D631F4F2BE600E2D8BC /* FujiTests */,
+				EB430D6E1F4F2BE600E2D8BC /* FujiUITests */,
+				EB430D4D1F4F2BE600E2D8BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB430D4D1F4F2BE600E2D8BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB430D4C1F4F2BE600E2D8BC /* Fuji.app */,
+				EB430D601F4F2BE600E2D8BC /* FujiTests.xctest */,
+				EB430D6B1F4F2BE600E2D8BC /* FujiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB430D4E1F4F2BE600E2D8BC /* Fuji */ = {
+			isa = PBXGroup;
+			children = (
+				EB430D4F1F4F2BE600E2D8BC /* AppDelegate.swift */,
+				EB430D511F4F2BE600E2D8BC /* ViewController.swift */,
+				EB430D531F4F2BE600E2D8BC /* Main.storyboard */,
+				EB430D561F4F2BE600E2D8BC /* Assets.xcassets */,
+				EB430D581F4F2BE600E2D8BC /* LaunchScreen.storyboard */,
+				EB430D5B1F4F2BE600E2D8BC /* Info.plist */,
+			);
+			path = Fuji;
+			sourceTree = "<group>";
+		};
+		EB430D631F4F2BE600E2D8BC /* FujiTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB430D641F4F2BE600E2D8BC /* FujiTests.swift */,
+				EB430D661F4F2BE600E2D8BC /* Info.plist */,
+			);
+			path = FujiTests;
+			sourceTree = "<group>";
+		};
+		EB430D6E1F4F2BE600E2D8BC /* FujiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB430D6F1F4F2BE600E2D8BC /* FujiUITests.swift */,
+				EB430D711F4F2BE600E2D8BC /* Info.plist */,
+			);
+			path = FujiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB430D4B1F4F2BE600E2D8BC /* Fuji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB430D741F4F2BE600E2D8BC /* Build configuration list for PBXNativeTarget "Fuji" */;
+			buildPhases = (
+				EB430D481F4F2BE600E2D8BC /* Sources */,
+				EB430D491F4F2BE600E2D8BC /* Frameworks */,
+				EB430D4A1F4F2BE600E2D8BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fuji;
+			productName = Fuji;
+			productReference = EB430D4C1F4F2BE600E2D8BC /* Fuji.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB430D5F1F4F2BE600E2D8BC /* FujiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB430D771F4F2BE600E2D8BC /* Build configuration list for PBXNativeTarget "FujiTests" */;
+			buildPhases = (
+				EB430D5C1F4F2BE600E2D8BC /* Sources */,
+				EB430D5D1F4F2BE600E2D8BC /* Frameworks */,
+				EB430D5E1F4F2BE600E2D8BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB430D621F4F2BE600E2D8BC /* PBXTargetDependency */,
+			);
+			name = FujiTests;
+			productName = FujiTests;
+			productReference = EB430D601F4F2BE600E2D8BC /* FujiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB430D6A1F4F2BE600E2D8BC /* FujiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB430D7A1F4F2BE600E2D8BC /* Build configuration list for PBXNativeTarget "FujiUITests" */;
+			buildPhases = (
+				EB430D671F4F2BE600E2D8BC /* Sources */,
+				EB430D681F4F2BE600E2D8BC /* Frameworks */,
+				EB430D691F4F2BE600E2D8BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB430D6D1F4F2BE600E2D8BC /* PBXTargetDependency */,
+			);
+			name = FujiUITests;
+			productName = FujiUITests;
+			productReference = EB430D6B1F4F2BE600E2D8BC /* FujiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB430D441F4F2BE600E2D8BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Fuji;
+				TargetAttributes = {
+					EB430D4B1F4F2BE600E2D8BC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					EB430D5F1F4F2BE600E2D8BC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB430D4B1F4F2BE600E2D8BC;
+					};
+					EB430D6A1F4F2BE600E2D8BC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB430D4B1F4F2BE600E2D8BC;
+					};
+				};
+			};
+			buildConfigurationList = EB430D471F4F2BE600E2D8BC /* Build configuration list for PBXProject "Fuji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB430D431F4F2BE600E2D8BC;
+			productRefGroup = EB430D4D1F4F2BE600E2D8BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB430D4B1F4F2BE600E2D8BC /* Fuji */,
+				EB430D5F1F4F2BE600E2D8BC /* FujiTests */,
+				EB430D6A1F4F2BE600E2D8BC /* FujiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB430D4A1F4F2BE600E2D8BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB430D5A1F4F2BE600E2D8BC /* LaunchScreen.storyboard in Resources */,
+				EB430D571F4F2BE600E2D8BC /* Assets.xcassets in Resources */,
+				EB430D551F4F2BE600E2D8BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB430D5E1F4F2BE600E2D8BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB430D691F4F2BE600E2D8BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB430D481F4F2BE600E2D8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB430D521F4F2BE600E2D8BC /* ViewController.swift in Sources */,
+				EB430D501F4F2BE600E2D8BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB430D5C1F4F2BE600E2D8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB430D651F4F2BE600E2D8BC /* FujiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB430D671F4F2BE600E2D8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB430D701F4F2BE600E2D8BC /* FujiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB430D621F4F2BE600E2D8BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB430D4B1F4F2BE600E2D8BC /* Fuji */;
+			targetProxy = EB430D611F4F2BE600E2D8BC /* PBXContainerItemProxy */;
+		};
+		EB430D6D1F4F2BE600E2D8BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB430D4B1F4F2BE600E2D8BC /* Fuji */;
+			targetProxy = EB430D6C1F4F2BE600E2D8BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB430D531F4F2BE600E2D8BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB430D541F4F2BE600E2D8BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB430D581F4F2BE600E2D8BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB430D591F4F2BE600E2D8BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB430D721F4F2BE600E2D8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB430D731F4F2BE600E2D8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB430D751F4F2BE600E2D8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fuji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.fuji.Fuji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EB430D761F4F2BE600E2D8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fuji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.fuji.Fuji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EB430D781F4F2BE600E2D8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FujiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.fuji.FujiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fuji.app/Fuji";
+			};
+			name = Debug;
+		};
+		EB430D791F4F2BE600E2D8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FujiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.fuji.FujiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fuji.app/Fuji";
+			};
+			name = Release;
+		};
+		EB430D7B1F4F2BE600E2D8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FujiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.fuji.FujiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Fuji;
+			};
+			name = Debug;
+		};
+		EB430D7C1F4F2BE600E2D8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FujiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.fuji.FujiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Fuji;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB430D471F4F2BE600E2D8BC /* Build configuration list for PBXProject "Fuji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB430D721F4F2BE600E2D8BC /* Debug */,
+				EB430D731F4F2BE600E2D8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB430D741F4F2BE600E2D8BC /* Build configuration list for PBXNativeTarget "Fuji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB430D751F4F2BE600E2D8BC /* Debug */,
+				EB430D761F4F2BE600E2D8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB430D771F4F2BE600E2D8BC /* Build configuration list for PBXNativeTarget "FujiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB430D781F4F2BE600E2D8BC /* Debug */,
+				EB430D791F4F2BE600E2D8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB430D7A1F4F2BE600E2D8BC /* Build configuration list for PBXNativeTarget "FujiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB430D7B1F4F2BE600E2D8BC /* Debug */,
+				EB430D7C1F4F2BE600E2D8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB430D441F4F2BE600E2D8BC /* Project object */;
+}
